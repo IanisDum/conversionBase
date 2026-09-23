@@ -18,3 +18,8 @@ input
 output
     base 2 : 1010
     base 16 : A
+
+P.S 
+Je sais que le code n'est pas bien optimiser mais je veux d'abord faire un tru qui marche au vu de mon niveau et apres optimiser comme il se doit.
+
+signe ianis 

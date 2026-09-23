@@ -10,18 +10,20 @@ def reset():
 if choix in (2, 10, 16):
     #si la base selectionner est la base 10
     if choix == 10:
-
+        #choix du nombre
         base = int(input("choisis un nombre base 10 : "))
         nombre = base
         quotient = nombre
-
+        #conversion base2
         while quotient != 0:
             quotient = int(nombre) // 2
             reste = int(nombre) % 2
             nombre = quotient
             print(reste)
+        #reinitialisation de la variable base
         reset()
         print("________________")
+        #conversion en base 16
         reste = base
         dicoHexa = {
             0: "0",
